@@ -1,0 +1,34 @@
+//{
+//  "type":"minecraft:crafting_shaped",
+//  "conditions":[
+//    {
+//      "type":"neoforge:item_exists",
+//      "item":"moremekasuitmodules:module_quick_aiming_unit"
+//    }
+//  ],
+//  "result":{
+//    "id":"moremekasuitmodules:module_quick_aiming_unit"
+//  },
+//  "pattern":[
+//    "I#I",
+//    "IAI",
+//    "PPP"
+//  ],
+//  "key":{
+//    "I":{
+//      "tag":"c:alloys/elite"
+//    },
+//    "A":{
+//      "item":"mekanism:module_base"
+//    },
+//    "#":{
+//      "item":"tacz:attachment",
+//      "components": {
+//        "tacz:attachmentId": "tacz:sight_552"
+//      }
+//    },
+//    "P":{
+//      "tag":"c:pellets/polonium"
+//    }
+//  }
+//}

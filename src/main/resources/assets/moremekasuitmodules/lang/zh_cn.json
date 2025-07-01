@@ -1,0 +1,38 @@
+{
+  "itemGroup.moremekasuitmodules": "More Mekasuit Modules",
+
+  "module.moremekasuitmodules.quick_aiming_unit": "快速开镜单元",
+  "description.moremekasuitmodules.quick_aiming_unit": "让枪械开镜更快",
+  "module.moremekasuitmodules.quick_aiming": "开镜速度",
+  "module.moremekasuitmodules.quick_aiming_hud": "开镜速度: %1$s",
+
+  "module.moremekasuitmodules.quick_sprintshoot_unit": "快速跑射单元",
+  "description.moremekasuitmodules.quick_sprintshoot_unit": "降低枪械的跑射延迟",
+
+  "module.moremekasuitmodules.quick_reloading_unit": "快速换弹单元",
+  "description.moremekasuitmodules.quick_reloading_unit": "让枪械换弹更快",
+  "module.moremekasuitmodules.quick_reloading": "换弹速度",
+  "module.moremekasuitmodules.quick_reloading_hud": "换弹速度: %1$s",
+
+  "module.moremekasuitmodules.recoil_offset_unit": "后座抵消单元",
+  "description.moremekasuitmodules.recoil_offset_unit": "降低枪械的后座",
+  "module.moremekasuitmodules.recoil_offset": "后坐力倍率",
+  "module.moremekasuitmodules.recoil_offset_hud": "后坐力倍率: %1$s",
+
+  "module.moremekasuitmodules.automatic_drinking_unit": "自动喝水单元",
+  "description.moremekasuitmodules.automatic_drinking_unit": "在玩家口渴时自动补充水分",
+
+  "module.moremekasuitmodules.flame_thrower_unit": "火焰喷射单元",
+  "description.moremekasuitmodules.flame_thrower_unit": "为meka工具添加火焰喷射器的功能(使用meka胸甲的氢气)",
+  "module.moremekasuitmodules.flame_thrower": "模式",
+
+  "module.moremekasuitmodules.elytra_acceleration_unit": "鞘翅加速单元",
+  "description.moremekasuitmodules.elytra_acceleration_unit": "在使用鞘翅飞行时,按跳跃键加速",
+  "module.moremekasuitmodules.elytra_acceleration": "速度",
+  "module.moremekasuitmodules.elytra_acceleration_hud": "速度: %1$s",
+
+  "module.moremekasuitmodules.looting_modification_unit" : "抢夺单元",
+  "description.moremekasuitmodules.looting_modification_unit": "提升抢夺附魔的效果",
+  "module.moremekasuitmodules.looting_modification": "附魔等级",
+  "module.moremekasuitmodules.looting_modification_hud": "附魔等级: %1$s"
+}

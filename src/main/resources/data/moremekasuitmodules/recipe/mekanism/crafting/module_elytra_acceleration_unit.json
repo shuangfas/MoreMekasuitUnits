@@ -1,0 +1,32 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "id":"moremekasuitmodules:module_elytra_acceleration_unit",
+    "count": 3
+  },
+  "pattern":[
+    "W#W",
+    "IAI",
+    "PBP"
+  ],
+  "key":{
+    "W":{
+      "tag":"c:pellets/antimatter"
+    },
+    "I":{
+      "item":"minecraft:firework_rocket"
+    },
+    "A":{
+      "item":"mekanism:module_base"
+    },
+    "#":{
+      "item":"mekanism:jetpack"
+    },
+    "P":{
+      "tag":"c:pellets/polonium"
+    },
+    "B":{
+      "tag":"c:pellets/plutonium"
+    }
+  }
+}

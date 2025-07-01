@@ -1,0 +1,32 @@
+//{
+//  "type":"minecraft:crafting_shaped",
+//  "result":{
+//    "id":"tacz:attachment",
+//    "count": 1,
+//    "components": {
+//      "minecraft:custom_data": "{AttachmentId:\"tacz:oem_stock_heavy\"}"
+//    }
+//  },
+//  "pattern":[
+//    "I#I",
+//    "IAI",
+//    "PPP"
+//  ],
+//  "key":{
+//    "I":{
+//      "tag":"c:alloys/elite"
+//    },
+//    "A":{
+//      "item":"mekanism:module_base"
+//    },
+//    "#":{
+//      "item":"tacz:attachment",
+//      "components": {
+//        "minecraft:custom_data": "{AttachmentId:\"tacz:oem_stock_heavy\"}"
+//      }
+//    },
+//    "P":{
+//      "tag":"c:pellets/polonium"
+//    }
+//  }
+//}

@@ -1,0 +1,38 @@
+{
+  "itemGroup.moremekasuitmodules": "More Mekasuit Modules",
+
+  "module.moremekasuitmodules.quick_aiming_unit": "Quick Aiming Unit",
+  "description.moremekasuitmodules.quick_aiming_unit": "Getting the gun to aim fast",
+  "module.moremekasuitmodules.quick_aiming": "Aiming speed multiplier",
+  "module.moremekasuitmodules.quick_aiming_hud": "Aiming speed multiplier: %1$s",
+
+  "module.moremekasuitmodules.quick_sprintshoot_unit": "Quick Sprint-Shoot Unit",
+  "description.moremekasuitmodules.quick_sprintshoot_unit": "Makes the gun shoot faster after sprinting to aim it",
+
+  "module.moremekasuitmodules.quick_reloading_unit": "Quick Reloading Unit",
+  "description.moremekasuitmodules.quick_reloading_unit": "Makes reloading the gun faster",
+  "module.moremekasuitmodules.quick_reloading": "Reloading speed multiplier",
+  "module.moremekasuitmodules.quick_reloading_hud": "Reloading speed multiplier: %1$s",
+
+  "module.moremekasuitmodules.recoil_offset_unit": "Recoil Offset unit",
+  "description.moremekasuitmodules.recoil_offset_unit": "Make the gun recoil less",
+  "module.moremekasuitmodules.recoil_offset": "Recoil multiplier",
+  "module.moremekasuitmodules.recoil_offset_hud": "Recoil multiplier: %1$s",
+
+  "module.moremekasuitmodules.automatic_drinking_unit": "Automatic Drinking Unit",
+  "description.moremekasuitmodules.automatic_drinking_unit": "Automatically hydrates players when they are thirst",
+
+  "module.moremekasuitmodules.flame_thrower_unit": "Flame Thrower Unit",
+  "description.moremekasuitmodules.flame_thrower_unit": "Add flame thrower function to meka tool(Using mekasuit bodyamor's hydrogen)",
+  "module.moremekasuitmodules.flame_thrower": "Mode",
+
+  "module.moremekasuitmodules.elytra_acceleration_unit": "Elytra Acceleration Unit",
+  "description.moremekasuitmodules.elytra_acceleration_unit": "When flying with elytra, press the jump key to accelerate",
+  "module.moremekasuitmodules.elytra_acceleration": "Speed Multiplier",
+  "module.moremekasuitmodules.elytra_acceleration_hud": "Speed Multiplier: %1$s",
+
+  "module.moremekasuitmodules.looting_modification_unit" : "Looting Unit",
+  "description.moremekasuitmodules.looting_modification_unit": "Boosts the effect of looting enchantments",
+  "module.moremekasuitmodules.looting_modification": "Looting Level Multiplier",
+  "module.moremekasuitmodules.looting_modification_hud": "Looting Level Multiplier: %1$s"
+}

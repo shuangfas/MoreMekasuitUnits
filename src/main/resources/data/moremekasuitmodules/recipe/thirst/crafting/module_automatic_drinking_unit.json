@@ -1,0 +1,31 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "conditions":[
+    {
+      "type":"neoforge:item_exists",
+      "item":"moremekasuitmodules:module_automatic_drinking_unit"
+    }
+  ],
+  "result":{
+    "id":"moremekasuitmodules:module_automatic_drinking_unit"
+  },
+  "pattern":[
+    "I#I",
+    "IAI",
+    "PPP"
+  ],
+  "key":{
+    "I":{
+      "tag":"c:alloys/elite"
+    },
+    "A":{
+      "item":"mekanism:module_base"
+    },
+    "#":{
+      "item":"minecraft:glass_bottle"
+    },
+    "P":{
+      "tag":"c:pellets/polonium"
+    }
+  }
+}

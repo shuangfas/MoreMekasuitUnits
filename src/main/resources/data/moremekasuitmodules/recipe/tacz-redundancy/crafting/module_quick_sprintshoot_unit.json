@@ -1,0 +1,34 @@
+//{
+//  "type":"minecraft:crafting_shaped",
+//  "conditions":[
+//    {
+//      "type":"neoforge:item_exists",
+//      "item":"moremekasuitmodules:module_quick_sprintshoot_unit"
+//    }
+//  ],
+//  "result":{
+//    "id":"moremekasuitmodules:module_quick_sprintshoot_unit"
+//  },
+//  "pattern":[
+//    "I#I",
+//    "IAI",
+//    "PPP"
+//  ],
+//  "key":{
+//    "I":{
+//      "tag":"c:alloys/elite"
+//    },
+//    "A":{
+//      "item":"mekanism:module_base"
+//    },
+//    "#":{
+//      "item":"tacz:attachment",
+//      "components": {
+//        "minecraft:custom_data": "{AttachmentId:\"tacz:stock_carbon_bone_c5\"}"
+//      }
+//    },
+//    "P":{
+//      "tag":"c:pellets/polonium"
+//    }
+//  }
+//}

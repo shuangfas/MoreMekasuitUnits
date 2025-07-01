@@ -1,0 +1,31 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "id":"moremekasuitmodules:module_looting_modification_unit"
+  },
+  "pattern":[
+    "I#I",
+    "IAI",
+    "PPP"
+  ],
+  "key":{
+    "I":{
+      "tag":"c:alloys/elite"
+    },
+    "A":{
+      "item":"mekanism:module_base"
+    },
+    "#":{
+      "type": "neoforge:components",
+      "items":"minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:looting": 3
+        }
+      }
+    },
+    "P":{
+      "tag":"c:pellets/polonium"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+//{
+//  "type":"minecraft:crafting_shaped",
+//  "conditions":[
+//    {
+//      "type":"neoforge:item_exists",
+//      "item":"moremekasuitmodules:module_quick_reloading_unit"
+//    }
+//  ],
+//  "result":{
+//    "id":"moremekasuitmodules:module_quick_reloading_unit"
+//  },
+//  "pattern":[
+//    "I#I",
+//    "IAI",
+//    "PPP"
+//  ],
+//  "key":{
+//    "I":{
+//      "tag":"c:alloys/elite"
+//    },
+//    "A":{
+//      "item":"mekanism:module_base"
+//    },
+//    "#":{
+//      "item":"tacz:attachment",
+//      "components": {
+//        "minecraft:custom_data": "{AttachmentId:\"tacz:light_extended_mag_3\"}"
+//      }
+//    },
+//    "P":{
+//      "tag":"c:pellets/polonium"
+//    }
+//  }
+//}
