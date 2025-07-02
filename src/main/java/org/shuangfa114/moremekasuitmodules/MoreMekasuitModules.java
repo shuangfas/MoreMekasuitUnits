@@ -25,6 +25,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import org.shuangfa114.moremekasuitmodules.config.ModConfig;
 import org.shuangfa114.moremekasuitmodules.datagen.ModRecipeProvider;
+import org.shuangfa114.moremekasuitmodules.event.EntityHurtByGun;
 import org.shuangfa114.moremekasuitmodules.init.ModTabs;
 import org.shuangfa114.moremekasuitmodules.init.mekanism.MekanismItemInit;
 import org.shuangfa114.moremekasuitmodules.init.mekanism.MekanismModulesInit;
@@ -67,6 +68,7 @@ public class MoreMekasuitModules {
         if(isTaczLoaded){
             TaczItemInit.ITEMS.register(modEventBus);
             TaczModulesInit.MODULES.register(modEventBus);
+            NeoForge.EVENT_BUS.register(new EntityHurtByGun());
         }
         //Thirst
         if(isThirstLoaded) {
@@ -92,11 +94,13 @@ public class MoreMekasuitModules {
             MekanismIMC.addMekaSuitBodyarmorModules(TaczModulesInit.MODULE_RECOIL_OFFSET_UNIT);
             MekanismIMC.addMekaSuitBodyarmorModules(TaczModulesInit.MODULE_QUICK_RELOADING_UNIT);
             MekanismIMC.addMekaSuitBodyarmorModules(TaczModulesInit.MODULE_QUICK_SPRINTSHOOT_UNIT);
+            MekanismIMC.addMekaSuitModules(TaczModulesInit.MODULE_BULLETPROOF_UNIT);
         }
         if (isThirstLoaded) {
             MekanismIMC.addMekaSuitHelmetModules(ThirstModulesInit.MODULE_AUTOMATIC_DRINKING_UNIT);
         }
     }
+    //NEVER DELETE IT!!!!!
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts

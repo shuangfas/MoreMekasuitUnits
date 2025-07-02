@@ -38,8 +38,8 @@ public class ModTabs {
                             output.accept(TaczItemInit.QUICK_RELOADING_UNIT.get());
                             output.accept(TaczItemInit.QUICK_SPRINTSHOOT_UNIT.get());
                             output.accept(TaczItemInit.RECOIL_OFFSET_UNIT.get());
+                            output.accept(TaczItemInit.BULLETPROOF_UNIT.get());
                         }
-
                     }
                 }).build());
     }

@@ -34,5 +34,8 @@
   "module.moremekasuitmodules.looting_modification_unit" : "抢夺单元",
   "description.moremekasuitmodules.looting_modification_unit": "提升抢夺附魔的效果",
   "module.moremekasuitmodules.looting_modification": "附魔等级",
-  "module.moremekasuitmodules.looting_modification_hud": "附魔等级: %1$s"
+  "module.moremekasuitmodules.looting_modification_hud": "附魔等级: %1$s",
+
+  "module.moremekasuitmodules.bulletproof_unit": "防弹单元",
+  "description.moremekasuitmodules.bulletproof_unit": "提供防弹效果(每个单元减免20%)"
 }

@@ -15,6 +15,10 @@ repositories {
     maven {
         url="https://cursemaven.com"
     }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
     exclusiveContent {
         forRepository {
             maven {
@@ -130,6 +134,8 @@ dependencies {
 
     implementation "curse.maven:thirst-was-taken-679270:6532318"
     implementation "curse.maven:appleskin-248787:6616291"
+
+    runtimeOnly ("maven.modrinth:in-game-account-switcher:2ByghZuX")
 
     implementation("io.github.llamalad7:mixinextras-neoforge:0.5.0-rc.1")
     jarJar("io.github.llamalad7:mixinextras-neoforge:0.5.0-rc.1")

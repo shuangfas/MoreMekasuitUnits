@@ -11,6 +11,7 @@ public enum ModConfigTranslations implements IConfigTranslation {
     COMMON_ENERGY_QUICK_AIMING("common.energy_quick_aiming", "Energy Quick Aiming","Energy (FE) of MekaSuit per tier when quick aiming"),
     COMMON_ENERGY_QUICK_RELOADING("common.energy_quick_reloading", "Energy Quick Reloading","Energy (FE) of MekaSuit per tier when quick reloading"),
     COMMON_ENERGY_RECOIL_OFFSET("common.energy_recoil_offset", "Energy Recoil Offset","Energy (FE) of MekaSuit per tier when shooting recoil offsetting"),
+    COMMON_ENERGY_BULLETPROOF("common.energy_bulletproof", "Energy Bulletproof","Energy (FE) required for each bulletproof unit to reduce bullet damage each time"),
     COMMON_DRINKING_MB_PER_DRINKING("common.drinking_mb_per_drinking", "Drinking MB Per Drinking","Mb of pure water needed per drinking"),
     COMMON_ENERGY_AUTOMATIC_DRINKING("common.energy_automatic_drinking", "Energy Automatic Drinking","Energy (FE) of MekaSuit when automatic drinking"),
     COMMON_THIRST_PER_DRINKING("common.thirst_per_drinking", "Thirst Per Drinking","Thirst provided by each automatic drinking"),

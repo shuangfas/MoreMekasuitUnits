@@ -14,6 +14,7 @@ public class TaczModulesInit {
     public static final ModuleRegistryObject<ModuleRecoilOffsetUnit> MODULE_RECOIL_OFFSET_UNIT;
     public static final ModuleRegistryObject<ModuleQuickReloadingUnit> MODULE_QUICK_RELOADING_UNIT;
     public static final ModuleRegistryObject<?> MODULE_QUICK_SPRINTSHOOT_UNIT;
+    public static final ModuleRegistryObject<?> MODULE_BULLETPROOF_UNIT;
 
     static {
         MODULE_QUICK_AIMING_UNIT = MODULES.register("quick_aiming_unit", ModuleQuickAimingUnit::new, () -> TaczItemInit.QUICK_AIMING_UNIT,
@@ -38,6 +39,7 @@ public class TaczModulesInit {
                         install -> ModuleEnumConfig.streamCodec(ModuleQuickReloadingUnit.ReloadingTime.STREAM_CODEC, ModuleQuickReloadingUnit.ReloadingTime.class, install + 1)
                 )
         );
+        MODULE_BULLETPROOF_UNIT= MODULES.registerMarker("bulletproof_unit", () -> TaczItemInit.BULLETPROOF_UNIT, (m) -> m);
     }
 
     public TaczModulesInit() {

@@ -11,6 +11,7 @@ public class TaczItemInit {
     public static final ItemRegistryObject<ItemModule> RECOIL_OFFSET_UNIT;
     public static final ItemRegistryObject<ItemModule> QUICK_SPRINTSHOOT_UNIT;
     public static final ItemRegistryObject<ItemModule> QUICK_RELOADING_UNIT;
+    public static final ItemRegistryObject<ItemModule> BULLETPROOF_UNIT;
     public TaczItemInit() {
     }
     static {
@@ -18,5 +19,6 @@ public class TaczItemInit {
         RECOIL_OFFSET_UNIT=ITEMS.registerModule(TaczModulesInit.MODULE_RECOIL_OFFSET_UNIT);
         QUICK_SPRINTSHOOT_UNIT=ITEMS.registerModule(TaczModulesInit.MODULE_QUICK_SPRINTSHOOT_UNIT);
         QUICK_RELOADING_UNIT=ITEMS.registerModule(TaczModulesInit.MODULE_QUICK_RELOADING_UNIT);
+        BULLETPROOF_UNIT=ITEMS.registerModule(TaczModulesInit.MODULE_BULLETPROOF_UNIT);
     }
 }

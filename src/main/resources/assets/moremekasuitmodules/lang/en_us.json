@@ -34,5 +34,8 @@
   "module.moremekasuitmodules.looting_modification_unit" : "Looting Unit",
   "description.moremekasuitmodules.looting_modification_unit": "Boosts the effect of looting enchantments",
   "module.moremekasuitmodules.looting_modification": "Looting Level Multiplier",
-  "module.moremekasuitmodules.looting_modification_hud": "Looting Level Multiplier: %1$s"
+  "module.moremekasuitmodules.looting_modification_hud": "Looting Level Multiplier: %1$s",
+
+  "module.moremekasuitmodules.bulletproof_unit": "Bulletproof Unit",
+  "description.moremekasuitmodules.bulletproof_unit": "Provide bulletproof effect (20% reduction per unit)"
 }

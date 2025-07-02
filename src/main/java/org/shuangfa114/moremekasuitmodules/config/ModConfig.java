@@ -41,6 +41,7 @@ public class ModConfig {
         public final CachedLongValue energyQuickAiming;
         public final CachedLongValue energyQuickReloading;
         public final CachedLongValue energyRecoilOffset;
+        public final CachedLongValue energyBulletproof;
         //thirst
         public final CachedIntValue drinkingMBPerDrinking;
         public final CachedIntValue thirstPerDrinking;
@@ -80,6 +81,10 @@ public class ModConfig {
             energyRecoilOffset = CachedLongValue.definePositive(this, builder,
                     ModConfigTranslations.COMMON_ENERGY_RECOIL_OFFSET,
                     "energyRecoilOffset",
+                    1000L);
+            energyBulletproof = CachedLongValue.definePositive(this, builder,
+                    ModConfigTranslations.COMMON_ENERGY_BULLETPROOF,
+                    "energyBulletproof",
                     1000L);
             builder.pop();
             //thirst
