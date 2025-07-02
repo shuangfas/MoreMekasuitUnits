@@ -3,14 +3,7 @@ package org.shuangfa114.moremekasuitmodules;
 import com.mojang.logging.LogUtils;
 import mekanism.api.MekanismIMC;
 import mekanism.api.gear.ModuleData;
-import net.minecraft.core.HolderLookup;
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -19,12 +12,9 @@ import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.common.crafting.DataComponentIngredient;
-import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import org.shuangfa114.moremekasuitmodules.config.ModConfig;
-import org.shuangfa114.moremekasuitmodules.datagen.ModRecipeProvider;
 import org.shuangfa114.moremekasuitmodules.event.EntityHurtByGun;
 import org.shuangfa114.moremekasuitmodules.init.ModTabs;
 import org.shuangfa114.moremekasuitmodules.init.mekanism.MekanismItemInit;
@@ -38,7 +28,6 @@ import org.slf4j.Logger;
 import java.util.IdentityHashMap;
 import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.CompletableFuture;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(MoreMekasuitModules.MODID)
