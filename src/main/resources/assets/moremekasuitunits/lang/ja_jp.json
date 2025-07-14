@@ -31,8 +31,8 @@
   "module.moremekasuitunits.elytra_acceleration": "速度乗数",
   "module.moremekasuitunits.elytra_acceleration_hud": "速度乗数: %1$s",
 
-  "module.moremekasuitunits.looting_modification_unit" : "ドロップ増加増強ユニット",
-  "description.moremekasuitunits.looting_modification_unit": "ドロップ増加エンチャントの効力を高めます。(最小 1 最大 5)",
+  "module.moremekasuitunits.looting_modification_unit" : "ドロップ増加ユニット",
+  "description.moremekasuitunits.looting_modification_unit": "ドロップ増加エンチャントの能力を付与します。(最小 1 最大 5)",
   "module.moremekasuitunits.looting_modification": "ドロップ増加レベル乗数",
   "module.moremekasuitunits.looting_modification_hud": "ドロップ増加レベル乗数: %1$s"
 }
