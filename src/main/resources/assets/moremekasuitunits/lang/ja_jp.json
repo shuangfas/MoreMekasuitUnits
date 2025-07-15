@@ -1,0 +1,38 @@
+{
+  "itemGroup.moremekasuitunits": "More Mekasuit Units",
+
+  "module.moremekasuitunits.quick_aiming_unit": "機敏照準ユニット",
+  "description.moremekasuitunits.quick_aiming_unit": "銃の照準を定める速度が向上します。",
+  "module.moremekasuitunits.quick_aiming": "照準速度乗数",
+  "module.moremekasuitunits.quick_aiming_hud": "照準速度乗数: %1$s",
+
+  "module.moremekasuitunits.quick_sprintshoot_unit": "機敏移動射撃ユニット",
+  "description.moremekasuitunits.quick_sprintshoot_unit": "照準後走ると、銃の射撃速度が向上します。",
+
+  "module.moremekasuitunits.quick_reloading_unit": "高速装填ユニット",
+  "description.moremekasuitunits.quick_reloading_unit": "銃のリロード速度が向上します。",
+  "module.moremekasuitunits.quick_reloading": "リロード速度乗数",
+  "module.moremekasuitunits.quick_reloading_hud": "リロード速度乗数: %1$s",
+
+  "module.moremekasuitunits.recoil_offset_unit": "反動抑制ユニット",
+  "description.moremekasuitunits.recoil_offset_unit": "銃の反動を抑えます。",
+  "module.moremekasuitunits.recoil_offset": "反動乗数",
+  "module.moremekasuitunits.recoil_offset_hud": "反動乗数: %1$s",
+
+  "module.moremekasuitunits.automatic_drinking_unit": "自動飲水ユニット",
+  "description.moremekasuitunits.automatic_drinking_unit": "喉の渇水時に自動で水分補給をします。",
+
+  "module.moremekasuitunits.flame_thrower_unit": "火炎放射ユニット",
+  "description.moremekasuitunits.flame_thrower_unit": "Meka-Toolに火炎放射機能を追加します。(Meka-Suitボディアーマーの水素を使用します)",
+  "module.moremekasuitunits.flame_thrower": "モード",
+
+  "module.moremekasuitunits.elytra_acceleration_unit": "エリトラ加速ユニット",
+  "description.moremekasuitunits.elytra_acceleration_unit": "エリトラの飛行時にジャンプキーで加速ができるようになります。",
+  "module.moremekasuitunits.elytra_acceleration": "速度乗数",
+  "module.moremekasuitunits.elytra_acceleration_hud": "速度乗数: %1$s",
+
+  "module.moremekasuitunits.looting_modification_unit" : "ドロップ増加ユニット",
+  "description.moremekasuitunits.looting_modification_unit": "ドロップ増加エンチャントの能力を付与します。(最小 1 最大 5)",
+  "module.moremekasuitunits.looting_modification": "ドロップ増加レベル乗数",
+  "module.moremekasuitunits.looting_modification_hud": "ドロップ増加レベル乗数: %1$s"
+}
