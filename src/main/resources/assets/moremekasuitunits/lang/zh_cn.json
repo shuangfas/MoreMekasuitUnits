@@ -1,38 +1,38 @@
 {
-  "itemGroup.moremekasuitunits": "More Mekasuit Units",
+  "itemGroup.moremekasuitunits": "通用机械：更多单元",
 
   "module.moremekasuitunits.quick_aiming_unit": "快速开镜单元",
-  "description.moremekasuitunits.quick_aiming_unit": "让枪械开镜更快",
+  "description.moremekasuitunits.quick_aiming_unit": "加快枪械的开镜速度",
   "module.moremekasuitunits.quick_aiming": "开镜速度",
-  "module.moremekasuitunits.quick_aiming_hud": "开镜速度: %1$s",
+  "module.moremekasuitunits.quick_aiming_hud": "开镜速度：%1$s",
 
   "module.moremekasuitunits.quick_sprintshoot_unit": "快速跑射单元",
   "description.moremekasuitunits.quick_sprintshoot_unit": "降低枪械的跑射延迟",
 
   "module.moremekasuitunits.quick_reloading_unit": "快速换弹单元",
-  "description.moremekasuitunits.quick_reloading_unit": "让枪械换弹更快",
+  "description.moremekasuitunits.quick_reloading_unit": "加快枪械的换弹速度",
   "module.moremekasuitunits.quick_reloading": "换弹速度",
-  "module.moremekasuitunits.quick_reloading_hud": "换弹速度: %1$s",
+  "module.moremekasuitunits.quick_reloading_hud": "换弹速度：%1$s",
 
-  "module.moremekasuitunits.recoil_offset_unit": "后座抵消单元",
-  "description.moremekasuitunits.recoil_offset_unit": "降低枪械的后座",
+  "module.moremekasuitunits.recoil_offset_unit": "后坐抵消单元",
+  "description.moremekasuitunits.recoil_offset_unit": "降低枪械的后坐力",
   "module.moremekasuitunits.recoil_offset": "后坐力倍率",
-  "module.moremekasuitunits.recoil_offset_hud": "后坐力倍率: %1$s",
+  "module.moremekasuitunits.recoil_offset_hud": "后坐力倍率：%1$s",
 
-  "module.moremekasuitunits.automatic_drinking_unit": "自动喝水单元",
+  "module.moremekasuitunits.automatic_drinking_unit": "自动饮水单元",
   "description.moremekasuitunits.automatic_drinking_unit": "在玩家口渴时自动补充水分",
 
   "module.moremekasuitunits.flame_thrower_unit": "火焰喷射单元",
-  "description.moremekasuitunits.flame_thrower_unit": "为meka工具添加火焰喷射器的功能(使用meka胸甲的氢气)",
+  "description.moremekasuitunits.flame_thrower_unit": "为Meka工具添加火焰喷射器的功能（使用MekaSuit胸甲存储的氢气）",
   "module.moremekasuitunits.flame_thrower": "模式",
 
   "module.moremekasuitunits.elytra_acceleration_unit": "鞘翅加速单元",
-  "description.moremekasuitunits.elytra_acceleration_unit": "在使用鞘翅飞行时,按跳跃键加速",
+  "description.moremekasuitunits.elytra_acceleration_unit": "使用鞘翅飞行时，按跳跃键可加速",
   "module.moremekasuitunits.elytra_acceleration": "速度",
-  "module.moremekasuitunits.elytra_acceleration_hud": "速度: %1$s",
+  "module.moremekasuitunits.elytra_acceleration_hud": "速度：%1$s",
 
   "module.moremekasuitunits.looting_modification_unit" : "抢夺单元",
-  "description.moremekasuitunits.looting_modification_unit": "提升抢夺附魔的效果(附魔等级最小=1 最大=5)",
+  "description.moremekasuitunits.looting_modification_unit": "提升抢夺附魔的效果（附魔等级最小=1 最大=5）",
   "module.moremekasuitunits.looting_modification": "附魔等级",
-  "module.moremekasuitunits.looting_modification_hud": "附魔等级: %1$s"
+  "module.moremekasuitunits.looting_modification_hud": "附魔等级：%1$s"
 }
